@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*# name: so-black
   # author: Muktazam Hasbi Ashidiqi (reorr)
   # date: May 2016
@@ -15,6 +16,25 @@
 
 /* dark color scheme */
 @define-color dark_bg_color #282828;
+=======
+/*# name: Windows 10 Dark
+  # author: Christian Medel (Elbullazul)
+  # date: January 14th, 2016
+  # description: Windows 10 Dark Granite color*/
+
+/* default color scheme */
+@define-color base_color #1f1f1f;
+@define-color bg_color #1F1F1F;
+@define-color text_color #ffffff;
+@define-color fg_color #ffffff;
+@define-color selected_bg_color #004D8C;
+@define-color selected_fg_color #ffffff;
+@define-color tooltip_bg_color #1F1F1F;
+@define-color tooltip_fg_color #ffffff;
+
+/* dark color scheme */
+@define-color dark_bg_color #1F1F1F;
+>>>>>>> 02c4b71e23f228deecd706026a79854c1c827ab2
 @define-color dark_fg_color #ffffff;
 
 /* colormap actually used by the theme, to be overridden in other css files */
@@ -33,7 +53,11 @@
  @define-color desktop_item_text_shadow alpha(black, 0.8);
 
 /* shadow effects */
+<<<<<<< HEAD
 @define-color light_shadow #202020;
+=======
+@define-color light_shadow #fff;
+>>>>>>> 02c4b71e23f228deecd706026a79854c1c827ab2
 @define-color dark_shadow #000;
 
 /* misc colors used by gtk+ */
@@ -73,8 +97,13 @@
 
 /* window manager colors */
 @define-color wm_bg @titlebar_bg_color;
+<<<<<<< HEAD
 @define-color wm_border_focused @titlebar_bg_color;
 @define-color wm_border_unfocused @titlebar_bg_color;
+=======
+@define-color wm_border_focused mix(shade(@titlebar_bg_color, 0.7), @titlebar_fg_color, 0.21);
+@define-color wm_border_unfocused mix(shade(@titlebar_bg_color, 0.7), @titlebar_fg_color, 0.12);
+>>>>>>> 02c4b71e23f228deecd706026a79854c1c827ab2
 @define-color wm_title_focused mix(@titlebar_fg_color, @titlebar_bg_color, 0.1);
 @define-color wm_title_unfocused mix(@titlebar_fg_color, @titlebar_bg_color, 0.4);
 @define-color wm_icons_focused mix(@titlebar_fg_color, @titlebar_bg_color, 0.1);

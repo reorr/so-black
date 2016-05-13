@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 # name: so-black
 # author: Muktazam Hasbi Ashidiqi (reorr)
 # date: May 2016
 # description: so-black gtk-3.0 based on Unite
+=======
+# Untitled GTK Theme
+>>>>>>> 02c4b71e23f228deecd706026a79854c1c827ab2
 
 gtk-color-scheme = "bg_color:#282828\nfg_color:#ffffff\nbase_color:#282828\ntext_color:#ffffff\nselected_bg_color:#3A3A3A\nselected_fg_color:#ffffff\ntooltip_bg_color:#2d2d2d\ntooltip_fg_color:#dedede\ntitlebar_bg_color:#282828\ntitlebar_fg_color:#ffffff\nmenubar_bg_color:#282828\nmenubar_fg_color:#ffffff\ntoolbar_bg_color:#282828\ntoolbar_fg_color:#ffffff\nmenu_bg_color:#282828\nmenu_fg_color:#ffffff\npanel_bg_color:#2b2b2b\npanel_fg_color:#ffffff\nlink_color:#03A9F4"
 
